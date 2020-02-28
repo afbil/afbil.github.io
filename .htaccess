@@ -1,3 +1,2 @@
-<FilesMatch "\.(?i:png|odf|pdf|rtf|txt)$">
-  Header set Content-Disposition attachment
-</FilesMatch>
+# Tell the browser to download the following multimedia files
+AddType application/octet-stream .png
